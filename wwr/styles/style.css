@@ -29,7 +29,7 @@ nav a:hover {
     background-color: #2a9d8f;
     color: #264653;}
 
-.icon {
+.logo, .icon {
     width: 80px;
 }
 .home-title { color: #264653;}

@@ -1,0 +1,62 @@
+img {
+    width: 80%;
+}
+
+p {
+    width: 80%;
+}
+
+a {
+    font-size: 1.5em;
+}
+/*Pseudo-classes require some interaction by the user in order for the style to be applied. For example, with the :hover pseudo-class the styles will only be applied 
+if the user is hovering their mouse pointer over the element.*/
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+/*Block elements always start on a new line and take up the full width available. They also have a top and bottom margin. Examples of block elements are div, p, article, section, h1-h6, ol, ul, li, form, main, and nav.
+Inline elements do not start on a new line and only take up as much width as necessary. Examples of inline elements are img, a, span, and button.*/
+
+/*Many of the other elements like nav, h1, and p are block-level elements.
+This means that they take up all the room they can. Let's put a border around every elements so we can see this easily.
+* {
+    border: 2px solid blue;
+}*/
+
+/* Text-align center will center the content of its container.*/
+h1 {
+    text-align: center;
+}
+
+nav, footer {
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+
+/*With images we want to center the container itself. 
+To give it some extra space, let's have it take the whole amount available and change its display property to display: block. 
+if the image itself takes up 100% of the space it won't appear to center either. So it's a good idea to give it a width and use margin: 0 auto together.*/
+
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+/*We didn't have to put display: block because p elements are already block-level elements.
+If we want to also center the content of the container, we could add a text-align: center as well and the paragraph would center inside the container as well.*/
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+/*Selectors are patterns used in CSS to select the elements you want to style. There are number of different ways to select elements.*/
+/*We could give one of them a class or ID as well and target that, but let's use a descendant selector instead.
+We can write our selector with the parent element first and then the child (or descendant next).*/
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}

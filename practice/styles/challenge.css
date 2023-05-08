@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@200&family=Lora&family=Roboto&family=Roboto+Slab&display=swap');
+
+nav,body, footer {
+    text-align: center;
+    background-color: #f283b6;
+    color: white;
+}
+nav {
+    /* max-width: 5px; */
+    margin: 40px auto; 
+    font-size: 50px;
+    text-align: center;
+    font-family:"Roboto"
+  }
+
+nav a:hover {
+    color: #000;
+}
+
+main h1 {
+    width: 34%;
+    margin: 10px auto;
+    font-family:"ariel";
+    font-size: 17px;
+    text-align: left;
+    background-color: #f283b6;
+    color: white;
+}
+
+#help {
+    width: 34%;
+    margin: 10px auto;
+    font-family:"ariel";
+    font-size: 17px;
+    text-align: center;
+    background-color: #f283b6;
+    color: white;   
+}
+/*To give it some extra space, let's have it take the whole amount available and change its display property to display: block. 
+if the image itself takes up 100% of the space it won't appear to center either. So it's a good idea to give it a width and use margin: 0 auto together.*/
+img {
+    width: 80%;
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+#nelson {
+    margin: 20px auto;
+    font-family:"Comme";
+    font-size: 21px;
+    text-align: center;
+    background-color: #f283b6;
+}
+
+.faith {
+    width: 34%;
+    margin: 30px auto;
+    font-family:"Roboto";
+    font-size: 20px;
+    text-align: left; /*改變文字方塊的寬度，並讓所有文字向左對齊*/
+    background-color: #f283b6;
+    color: #000;
+}
+
+main h2 {
+    margin: 40px auto;
+    font-family:"Lora";
+    font-size: 42px;
+    text-align: center;
+    background-color: #f283b6;
+    color: white;
+}
+
+footer p {
+    width: 80%;
+    margin: 50px auto;
+    font-family:"Helvetica";
+    font-size:20px;
+    text-align: center;
+    background-color: #f283b6;
+    color: #000;
+
+}

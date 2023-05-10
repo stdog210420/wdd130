@@ -2,11 +2,13 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    background-color:#F4A261 ;
 }
 
 #background {
     height: 725px;
-    background-color: #e9c46a; 
+    background-color: #2a9d8f; 
+
 }
 
 nav a {
@@ -49,6 +51,7 @@ main section {text-align: center;}
 
 body {
     background-color: #e9c46a; 
+    /* background-color: #ffff;  */
 }
 
 header {

@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Merienda:wght@900&display=swap');
+
+#logo_link  {
+    padding-top: 5px;
+} 
 
 #content {
     max-width: 1600px;
     margin: 0 auto;
-    background-color:#F4A261 ;
+    background-color:#e9c46a ;
 }
 
 #background {
@@ -12,9 +17,9 @@
 }
 
 nav a {
+    padding: 35px;
     text-align: center;
     text-decoration: none;
-    /* background-color:#F4A261 ; */
     color: #ffff;}
 
 nav a:hover {
@@ -22,6 +27,11 @@ nav a:hover {
     color: #264653;}
 
 .book, .join{
+    margin-top: 50px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-family:sans-serif, Helvetica, Arial ;
+    font-size: 18px;
     text-align: center;
     text-decoration: none;
     background-color:#E76F51 ;
@@ -31,37 +41,89 @@ nav a:hover {
     background-color: #2a9d8f;
     color: #264653;}
 
-.logo, .icon {
+.logo{
     width: 80px;
 }
-.home-title { color: #264653;}
+
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
+.home-title { 
+    margin-top: 10px;
+    color: #264653;
+    font-family: Merienda, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;}
+
+.msg h2{
+    color: #264653;
+    font-family: Merienda, Helvetica, sans-serif;
+    font-size: .2em;
+    text-align: center;
+}
+
+h2{
+    margin: 0;
+}
+
 h4 {color: #fff;}
 
+.card-img{
+    border: 10px solid #F4A261;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.mountains{
+    margin: 100px 0;
+}
 #hero-img {width: 100% ;}
 
 #hero-msg h1, #hero-msg h4 {text-align: center;}
 .button-box {text-align: center;}
-main section {text-align: center;}
 
-.msg h2 {text-align: center; 
-    color: #264653;}
-.msg p{text-align: center;  
+/* Now the border and image will be included in the size of those images. */
+main section {
+    box-sizing: border-box; 
+    text-align: center;}
+
+ 
+.msg p{
+    padding-bottom: 15px;
+    font-size: .8em;
+    text-align: center;  
     color: #2a9d8f;}
-.msg {background-color: rgba(255, 190, 120, 0.7) ;   }
+.msg {
+    margin: 35px 0;
+    padding: 35px;
+    background-color: #ffff;   
+    line-height: 1.5em;}
 
 body {
-    background-color: #e9c46a; 
+    background-color: #F4A261; 
     /* background-color: #ffff;  */
+    font-family: Caveat, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color:#E76F51;
+    font-family: Merienda, Helvetica, sans-serif;
 }  
 
 
 footer{
+    margin-top: 200px;
+    padding: 25px 50px;
+    padding-top: 15px;
     background-color:#2A9D8F;
     color: #000;
+}
+.social image{
+    padding-top: 15px;
 }
 
 footer a {  

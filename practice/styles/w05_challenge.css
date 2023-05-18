@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@200&family=Lora&family=Roboto&family=Roboto+Slab&display=swap');
+
+img{
+    width: 100%;
+    margin: 0 auto ;
+    text-align: center;
+}
+
+/* we have to add header and main to let their margin 0 */
+header, main, #circle, .content{
+    width: 100%;
+    margin: 0 auto ;
+    background-color:grey;
+    text-align: center;
+}
+
+#desk, #graphic, #person {    
+    width: 20%;
+    border-radius: 50%; 
+    border: 20px solid #4c4c4c;
+    margin: 50px;
+    text-align: left;
+
+}
+footer p{
+    width: 100%;
+    padding: 5px auto ;
+    text-align: center;
+    font-family:"Comme";
+    font-size: 30px;
+}
+

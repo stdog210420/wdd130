@@ -88,6 +88,8 @@ main section {
     box-sizing: border-box; 
     text-align: center;}
 
+
+
  
 .msg p{
     padding-bottom: 15px;
@@ -112,6 +114,7 @@ body {
 header {
     background-color:#E76F51;
     font-family: Merienda, Helvetica, sans-serif;
+
 }  
 
 

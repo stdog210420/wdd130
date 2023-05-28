@@ -164,8 +164,9 @@
 } 
 .yellow5 {
   width: 100%; 
-  height: 200px; 
-  background-color: gold; 
+  height: 100%; 
+  background-color: gold;
+  text-align: left justify;
 }
 .blue5 {
   width: 100%; 

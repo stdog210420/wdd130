@@ -130,7 +130,7 @@ nav a:hover {
 
 main section {
     text-align: center;
-    text-justify: distribute;
+    /* text-justify: distribute; */
     align-items: center;
 }
 

@@ -97,7 +97,7 @@ nav a:hover {
 .home-grid { 
     /* max-width: 1600px; */
     display: grid;
-    grid-template-columns: repeat(11,fr);
+    grid-template-columns: repeat(10, 1fr);
     margin-top: 10px;
     color: #6d98ba;
     font-family: "Playfair", sans-serif, Helvetica;
@@ -112,6 +112,7 @@ main section {
     justify-self: center;
 }
 main h1, h2, h3, h4, h5, h6{
+    margin-top: 10px;
     text-align: center;
     justify-items: center;
     align-items: center;
@@ -134,6 +135,7 @@ main img:hover {
 }
 
 .firstletter {
+    margin: 10px;
     font-family: "Dancing Script", sans-serif, Helvetica;
     font-size: 60px;
     color: #e15a97;
@@ -179,7 +181,6 @@ main img:hover {
     font-size: 30px;
     color: #6d98ba;
     text-align: left;
-    text-justify: distribute;
 }
 
 
@@ -198,14 +199,14 @@ main img:hover {
     grid-column: 3/9;
     grid-row: 2/3;
     display: grid;
-    grid-template-rows: repeat(2,fr);
+    /* grid-template-rows: repeat(2, 1fr); */
 }
 
 .bun {
     grid-column: 3/9;
     grid-row: 3/4;
     display: grid;
-    grid-template-columns: repeat(2,fr);
+    grid-template-columns: repeat(2, 1fr);
 
 }
 
@@ -213,34 +214,31 @@ main img:hover {
     grid-column: 3/9;
     grid-row: 4/5;
     display: grid;
-    grid-template-columns: repeat(2,fr);
+    grid-template-columns: repeat(2, 1fr);
 
 }
 
 .hand {
     grid-column: 3/9;
     grid-row: 2/3;
-    display: grid;
-    grid-template-rows: repeat(2,fr);
 }
 
 .feet {
     grid-column: 3/9;
     grid-row: 3/4;
-    display: grid;
-    grid-template-rows: repeat(2,fr);
 }
 .movement {
     grid-column: 3/9;
-    grid-row: 4/11;
+    grid-row: 4/9;
     display: grid;
-    grid-template-rows: repeat(8, fr);
+    grid-template-rows: 30px auto;
 }
 
 #exercise {
     grid-column: 3/9;
     grid-row: 1/2;
     justify-self: left;
+    padding: 10px;
 
 }
 
@@ -248,65 +246,65 @@ main img:hover {
     grid-column: 3/9;
     grid-row: 2/3;
     display: grid;
-    grid-template-columns: repeat(2, fr);    
-    grid-template-rows: repeat(2,fr);    
+    grid-template-columns: repeat(2, 1fr);  
+    grid-template-rows: repeat(2, 1fr);    
 }
 
 #pile {
     grid-column: 3/9;
     grid-row: 3/4;
     display: grid;
-    grid-template-columns: repeat(2, fr);    
-    grid-template-rows: repeat(2,fr);
+    grid-template-columns: repeat(2, 1fr);    
+    grid-template-rows: repeat(2, 1fr);
 }
 
 #eleves {
     grid-column: 3/9;
     grid-row: 4/5;
     display: grid;
-    grid-template-columns: repeat(2, fr);    
-    grid-template-rows: repeat(2,fr);
+    grid-template-columns: repeat(2, 1fr);    
+    grid-template-rows: repeat(2, 1fr);
 }
 
 #tendu {
     grid-column: 3/9;
     grid-row: 5/6;
     display: grid;
-    grid-template-columns: repeat(2, fr);    
-    grid-template-rows: repeat(2,fr);
+    grid-template-columns: repeat(2, 1fr);    
+    grid-template-rows: repeat(2, 1fr);
 }
 
 #degages {
     grid-column: 3/9;
     grid-row: 6/7;
     display: grid;
-    grid-template-columns: repeat(2, fr);    
-    grid-template-rows: repeat(2,fr);
+    grid-template-columns: repeat(2, 1fr);    
+    grid-template-rows: repeat(2, 1fr);
 }
 
 #round {
     grid-column: 3/9;
     grid-row: 7/8;
     display: grid;
-    grid-template-columns: repeat(2, fr);    
-    grid-template-rows: repeat(2,fr);
+    grid-template-columns: repeat(2, 1fr);    
+    grid-template-rows: repeat(2, 1fr);
 }
 
 #sautes {
     grid-column: 3/9;
     grid-row: 8/9;
     display: grid;
-    grid-template-columns: repeat(2, fr);    
-    grid-template-rows: repeat(2,fr);
+    grid-template-columns: repeat(2, 1fr);    
+    grid-template-rows: repeat(2, 1fr);
 }
 
 .music{
     /* background-color: #fff5f2;  */
     grid-column: 3/9;
-    grid-row: 11/12;
+    grid-row: 10/11;
     display: grid;
-    grid-template-columns: repeat(5,fr);
-    grid-template-rows: repeat(5,fr);   
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);   
 }
 
 .music img{
@@ -345,14 +343,14 @@ main img:hover {
 .dress-img {
     margin-top: 10px;
     grid-column: 3/9;
-    grid-row: 1/2;
+    /* grid-row: 1/2; */
     align-self: center;
     justify-self: center;
 
 }
 .dress-msg {
     grid-column: 3/9;
-    grid-row: 2/3;
+    /* grid-row: 2/3; */
 
 }
 
@@ -386,8 +384,8 @@ main img:hover {
     padding: 10px;
     grid-column: 2/3;
     grid-row: 4/5;
-    align-self: right;
-    justify-self: right;
+    align-self:center;
+    justify-self:right;
 
 }
 
@@ -402,14 +400,12 @@ main img:hover {
 .hand-img, .feet-img {
     margin-top: 10px;
     grid-column: 3/9;
-    grid-row: 1/2;
     align-self: center;
     justify-self: center;
 
 }
 .hand-msg, .feet-msg {
     grid-column: 3/9;
-    grid-row: 2/3;
 
 }
 
@@ -417,13 +413,13 @@ main img:hover {
     margin-top: 10px;
     grid-column: 1/2;
     grid-row: 1/2;
-    align-self: left;
+    align-self: center;
     justify-self: left;
 
 }
 .port-msg, .eleves-msg, .pile-msg, .tendu-msg, .degages-msg, .round-msg, .sautes-msg {
     margin-top: 10px;
-    padding-top: 100px;
+    padding-top: 10px;
     padding-left: 20px;
     grid-column: 2/3;
     grid-row: 1/2;
@@ -437,7 +433,7 @@ main img:hover {
     grid-column: 1/3;
     grid-row: 2/3;
     display: grid;
-    grid-template-columns: repeat(2, fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-self: center;
 }
 
@@ -503,7 +499,7 @@ form {
   input:focus,
   textarea:focus {
     /* Additional highlight for focused elements */
-    border-color: #E76F51 3;
+    border-color: #E76F51;
   }
   
   textarea {
@@ -595,7 +591,7 @@ footer p a:hover {
         display: none;
     }
 
-    main h1, h2, h3, h4,h5, h6 {
+    main h1, h2, h3, h4,h5, h6, .head p{
         font-size: 25px;
     }
     .home-title {

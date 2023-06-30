@@ -97,29 +97,82 @@ nav a:hover {
 .home-grid { 
     /* max-width: 1600px; */
     display: grid;
-    grid-template-rows: repeat(6,fr);
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: repeat(11,fr);
     margin-top: 10px;
     color: #6d98ba;
     font-family: "Playfair", sans-serif, Helvetica;
     font-size: 1em;
+    justify-content: center;
+    align-content: center;
+  }
+
+main section {
+    box-sizing: border-box; 
     align-self: center;
     justify-self: center;
+}
+main h1, h2, h3, h4, h5, h6{
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    font-size: 50px;
+    color:#6d98ba;
+}
+
+main img{
+    /* width: 1600px; */
+    border: 10px solid #e15a97;
+    width: 1600px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+main img:hover {
+    /* transparent 40% */ 
+    opacity: .6; 
+    transform: scale(1.1);
+}
+
+.firstletter {
+    font-family: "Dancing Script", sans-serif, Helvetica;
+    font-size: 60px;
+    color: #e15a97;
+    text-align: left;
   }
+
+.firstletter:hover {
+    font-weight:bolder;
+    transform: scale(1.1);
+}
+
+.title{
+    font-family: "Playfair", sans-serif, Helvetica;
+    font-size: 30px;
+    font-weight:bolder;
+    color:  #6d98ba;
+  }
+
+.sub-title {
+    font-family: "Playfair", sans-serif, Helvetica;
+    font-size: 30px;
+    text-decoration: underline;
+    color:  #6d98ba;
+}
 
 .fundation {
     grid-row: 1/2;
-    grid-column: 2/3;
+    grid-column: 3/9;
+    width: 1600px;
 }
 
 .benefits {
     margin-top: 10px;
     grid-row: 2/5;
-    grid-column: 2/3;
+    grid-column: 3/9;
 }
 
-.fundation p, .benefits p {
-    grid-column: 2/3;
+.fundation p, .benefits p , .dress-msg p, .hand-msg p, .feet-msg p{
+    grid-column: 3/9;
     padding-top: 2px;
     width: 1600px;
     font-family: "Playfair", sans-serif, Helvetica;
@@ -129,183 +182,275 @@ nav a:hover {
     text-justify: distribute;
 }
 
-.attire  {
-    grid-row: 1/2;
-    grid-column: 2/3;
-}
 
-.attire p {
-    grid-column: 2/3;
+.fundation-ballet  {
+    grid-column: 3/9;
     padding-top: 2px;
     width: 1600px;
     font-family: "Playfair", sans-serif, Helvetica;
     font-size: 30px;
     color: #6d98ba;
     align-items: center;
-    justify-content: center;
-    align-self: center;
-    text-justify: distribute;
+    justify-items: center;
 }
 
 .dress {
-    grid-column: 2/3;
+    grid-column: 3/9;
     grid-row: 2/3;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 1fr;
-    align-items: center;   
-
+    grid-template-rows: repeat(2,fr);
 }
 
 .bun {
-    grid-column: 2/3;
+    grid-column: 3/9;
     grid-row: 3/4;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 1fr;
-    align-items: center;   
+    grid-template-columns: repeat(2,fr);
 
 }
 
 .shoes {
-    grid-column: 2/3;
+    grid-column: 3/9;
     grid-row: 4/5;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 1fr;
-    align-items: center;   
+    grid-template-columns: repeat(2,fr);
 
 }
 
-.tendu {
-    grid-column: 2/3;
+.hand {
+    grid-column: 3/9;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-rows: repeat(2,fr);
+}
+
+.feet {
+    grid-column: 3/9;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-rows: repeat(2,fr);
+}
+.movement {
+    grid-column: 3/9;
+    grid-row: 4/11;
+    display: grid;
+    grid-template-rows: repeat(8, fr);
+}
+
+#exercise {
+    grid-column: 3/9;
+    grid-row: 1/2;
+    justify-self: left;
+
+}
+
+#port {
+    grid-column: 3/9;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: repeat(2, fr);    
+    grid-template-rows: repeat(2,fr);    
+}
+
+#pile {
+    grid-column: 3/9;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: repeat(2, fr);    
+    grid-template-rows: repeat(2,fr);
+}
+
+#eleves {
+    grid-column: 3/9;
+    grid-row: 4/5;
+    display: grid;
+    grid-template-columns: repeat(2, fr);    
+    grid-template-rows: repeat(2,fr);
+}
+
+#tendu {
+    grid-column: 3/9;
     grid-row: 5/6;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 1fr;
-    align-items: center;   
-
+    grid-template-columns: repeat(2, fr);    
+    grid-template-rows: repeat(2,fr);
 }
 
-.arabesque {
-    grid-column: 2/3;
+#degages {
+    grid-column: 3/9;
     grid-row: 6/7;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 1fr;
-    align-items: center;   
-
+    grid-template-columns: repeat(2, fr);    
+    grid-template-rows: repeat(2,fr);
 }
 
-main img{
-    /* width: 1600px; */
-    border: 10px solid #e15a97;
-    width: 80%;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-    align-items: center;
-    justify-content: center;
-    align-self: center;
+#round {
+    grid-column: 3/9;
+    grid-row: 7/8;
+    display: grid;
+    grid-template-columns: repeat(2, fr);    
+    grid-template-rows: repeat(2,fr);
 }
 
+#sautes {
+    grid-column: 3/9;
+    grid-row: 8/9;
+    display: grid;
+    grid-template-columns: repeat(2, fr);    
+    grid-template-rows: repeat(2,fr);
+}
 
-.dress-img {
-    margin-top: 10px;
-    padding: 0 ;
-    grid-column: 2/3;
+.music{
+    /* background-color: #fff5f2;  */
+    grid-column: 3/9;
+    grid-row: 11/12;
+    display: grid;
+    grid-template-columns: repeat(5,fr);
+    grid-template-rows: repeat(5,fr);   
+}
+
+.music img{
+    width: 1000px;
+    height:1000px;
+}
+
+.music p{
+    width: 1000px;
+    height:300px;
+}
+
+.music h1 {
+    margin: 10px;
+    padding: 10px;
+    grid-column: 1/2;
     grid-row: 1/2;
 }
+.ballet{
+    margin: 100px;
+    width: 1000px;
+    grid-column: 1/4;
+    grid-row: 1/4;
+    /* box-shadow: 5px 5px 10px #6f7364; */
+}
+
+.music-msg {
+    background-color: #ffff;   
+    padding: 10px;
+    grid-column: 3/5;
+    grid-row: 3/5;
+    margin: 35px 0;
+    line-height: 1.5em;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.dress-img {
+    margin-top: 10px;
+    grid-column: 3/9;
+    grid-row: 1/2;
+    align-self: center;
+    justify-self: center;
+
+}
 .dress-msg {
-    text-justify: distribute; 
-    padding: 0 100px;
-    /* text-align: right justify;     */
-    grid-column: 1/2;
-    grid-row: 1/2; 
+    grid-column: 3/9;
+    grid-row: 2/3;
+
+}
+
+.bun img, .bun p , .shoes img, .shoes p, .movement img, .movement p{
+        width: 800px;
+        text-align: left;
 
 }
 
 .bun-img {
     margin-top: 10px;
-    padding: 0 ;
-    grid-column:1/2;
-    grid-row: 1/2;
-    /* float: left; */
+    padding: 10px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    justify-items: center;
+    justify-self: center;
 }
 
 .bun-msg {
     margin-top: 10px;
-    width: 80%;
-    height: 80%;
-    padding: 0 100px;
+    padding-top: 100px;
+    padding-left: 10px;
     grid-column: 2/3;
-    grid-row: 1/2;
-    /* text-align: left justify;     */
-
+    grid-row: 3/4;
+    align-content: center;
+    justify-self: center;
 }
 
 .shoes-img {
-    padding: 0 ;
+    margin-top: 10px;
+    padding: 10px;
     grid-column: 2/3;
-    grid-row: 1/2; 
-    /* float: right;  */
+    grid-row: 4/5;
+    align-self: right;
+    justify-self: right;
 
 }
 
 .shoes-msg{
-    width: 80%;
-    padding: 100px 100px;
-    /* text-align: right justify;     */
+    margin-top: 10px;
+    padding-top: 100px;
+    padding-right: 10px;
     grid-column: 1/2;
-    grid-row: 1/2; 
-
+    grid-row: 4/5;
 }
 
-.tendu-img {
-    padding: 0 ;
-    grid-column: 2/3;
-    grid-row: 1/2; 
-    /* float: right;  */
-
-}
-
-.arabesque-img {
-    padding: 0 ;
-    grid-column: 2/3;
-    grid-row: 1/2; 
-    /* float: right;  */
-
-}
-
-.firstletter {
-    font-family: "Dancing Script", sans-serif, Helvetica;
-    font-size: 50px;
-    color: #e15a97;
-  }
-
-.title{
-    font-family: "Playfair", sans-serif, Helvetica;
-    font-size: 30px;
-    font-weight:bolder;
-    color:  #6d98ba;
-  }
-
-
-.fundation-ballet h1, .benefits-ballet h2{
-    text-align: center;
-    font-size: 50px;
-    color:#6d98ba;
-
-}
-.dress h1, .bun h2, .shoes h3{
-    text-align: center;
-    color:#6d98ba;
-
-}
-
-main section {
+.hand-img, .feet-img {
+    margin-top: 10px;
+    grid-column: 3/9;
+    grid-row: 1/2;
     align-self: center;
     justify-self: center;
+
 }
+.hand-msg, .feet-msg {
+    grid-column: 3/9;
+    grid-row: 2/3;
+
+}
+
+.port-img, .eleves-img, .pile-img, .tendu-img, .degages-img, .round-img, .sautes-img {
+    margin-top: 10px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: left;
+    justify-self: left;
+
+}
+.port-msg, .eleves-msg, .pile-msg, .tendu-msg, .degages-msg, .round-msg, .sautes-msg {
+    margin-top: 10px;
+    padding-top: 100px;
+    padding-left: 20px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+    justify-self: center;
+
+}
+
+.pile-img2, .tendu-img2 {
+    margin-top: 10px;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: repeat(2, fr);
+    justify-self: center;
+}
+
+#demi{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#grand{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
 
 
 #feedback {
@@ -449,11 +594,15 @@ footer p a:hover {
     #hero-msg h4, #hero-msg h5 {
         display: none;
     }
+
+    main h1, h2, h3, h4,h5, h6 {
+        font-size: 25px;
+    }
     .home-title {
         font-size: 25px;
         color: #6f7364;
     }
-    .fundation, .terms, .grand { 
+    .fundation, .terms, .grand, #exercise, #port , #pile, #eleves,#tendu ,#degages ,#round ,#sautes , .music, .dress,.bun,.shoes, .hand, .feet, .movement, .music { 
         display: block;
         height: auto;
         margin: 50px auto;
@@ -461,7 +610,7 @@ footer p a:hover {
 
     }
 
-    .fundation-img, .terms-img, .grand-img { 
+    .fundation-img, .terms-img, .exercise-img, .port-img , .pile-img, .eleves-img, .tendu-img ,.degages-img ,.round-img ,.sautes-img , .music-img, .dress-img,.bun-img,.shoes-img, .hand-img, .feet-img { 
         margin: 50px auto;
         width: 80%;
 

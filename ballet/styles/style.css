@@ -16,7 +16,7 @@
 
 body {
     background-color:#fff5f2;
-    font-family: "Playfair", sans-serif, Helvetica;
+    font-family: Arial, sans-serif, Helvetica;
     font-size: 30px;
     margin: 0;
     padding: 0;
@@ -32,7 +32,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     background-color:hsl(333, 69%, 62%, 0.2);
-    font-family: "Playfair", sans-serif, Helvetica;
+    font-family: Arial, sans-serif, Helvetica;
 }  
 
 nav {
@@ -100,7 +100,7 @@ nav a:hover {
     grid-template-columns: repeat(10, 1fr);
     margin-top: 10px;
     color: #6d98ba;
-    font-family: "Playfair", sans-serif, Helvetica;
+    font-family: Arial, sans-serif, Helvetica;
     font-size: 1em;
     justify-content: center;
     align-content: center;
@@ -111,7 +111,7 @@ main section {
     align-self: center;
     justify-self: center;
 }
-main h1, h2, h3, h4, h5, h6{
+main h1, h2, h3, h4, h5, h6, .heading {
     margin-top: 10px;
     text-align: center;
     justify-items: center;
@@ -148,16 +148,17 @@ main img:hover {
 }
 
 .title{
-    font-family: "Playfair", sans-serif, Helvetica;
+    font-family: Arial, sans-serif, Helvetica;
     font-size: 30px;
     font-weight:bolder;
     color:  #6d98ba;
   }
 
 .sub-title {
-    font-family: "Playfair", sans-serif, Helvetica;
+    font-family: Arial, sans-serif, Helvetica;
     font-size: 30px;
     text-decoration: underline;
+    padding-left: 30px;
     color:  #6d98ba;
 }
 
@@ -177,7 +178,7 @@ main img:hover {
     grid-column: 3/9;
     padding-top: 2px;
     width: 1600px;
-    font-family: "Playfair", sans-serif, Helvetica;
+    font-family: Arial, sans-serif, Helvetica;
     font-size: 30px;
     color: #6d98ba;
     text-align: left;
@@ -188,7 +189,7 @@ main img:hover {
     grid-column: 3/9;
     padding-top: 2px;
     width: 1600px;
-    font-family: "Playfair", sans-serif, Helvetica;
+    font-family: Arial, sans-serif, Helvetica;
     font-size: 30px;
     color: #6d98ba;
     align-items: center;
@@ -231,7 +232,7 @@ main img:hover {
     grid-column: 3/9;
     grid-row: 4/9;
     display: grid;
-    grid-template-rows: 30px auto;
+    grid-template-rows: 0.5fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
 }
 
 #exercise {
@@ -247,7 +248,7 @@ main img:hover {
     grid-row: 2/3;
     display: grid;
     grid-template-columns: repeat(2, 1fr);  
-    grid-template-rows: repeat(2, 1fr);    
+    /* grid-template-rows: repeat(2, 1fr);     */
 }
 
 #pile {
@@ -263,7 +264,7 @@ main img:hover {
     grid-row: 4/5;
     display: grid;
     grid-template-columns: repeat(2, 1fr);    
-    grid-template-rows: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
 }
 
 #tendu {
@@ -279,7 +280,7 @@ main img:hover {
     grid-row: 6/7;
     display: grid;
     grid-template-columns: repeat(2, 1fr);    
-    grid-template-rows: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
 }
 
 #round {
@@ -287,7 +288,7 @@ main img:hover {
     grid-row: 7/8;
     display: grid;
     grid-template-columns: repeat(2, 1fr);    
-    grid-template-rows: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
 }
 
 #sautes {
@@ -295,20 +296,37 @@ main img:hover {
     grid-row: 8/9;
     display: grid;
     grid-template-columns: repeat(2, 1fr);    
-    grid-template-rows: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
 }
 
 .music{
     /* background-color: #fff5f2;  */
     grid-column: 3/9;
-    grid-row: 10/11;
+    grid-row: 9/11;
+    box-sizing: border-box;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);   
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);   
+    position: relative;
+    margin: 0;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 2s;
+    margin-top: 100px;
+    width: 1000px;
+    grid-column: 1/4;
+    grid-row: 1/4;
+    z-index: -1;
+    }
+
+@keyframes fade {
+from {opacity: .5}
+to {opacity: 1}
 }
 
 .music img{
-    width: 1000px;
+    width: 100%;
     height:1000px;
 }
 
@@ -322,13 +340,6 @@ main img:hover {
     padding: 10px;
     grid-column: 1/2;
     grid-row: 1/2;
-}
-.ballet{
-    margin: 100px;
-    width: 1000px;
-    grid-column: 1/4;
-    grid-row: 1/4;
-    /* box-shadow: 5px 5px 10px #6f7364; */
 }
 
 .music-msg {
@@ -357,8 +368,8 @@ main img:hover {
 .bun img, .bun p , .shoes img, .shoes p, .movement img, .movement p{
         width: 800px;
         text-align: left;
-
 }
+
 
 .bun-img {
     margin-top: 10px;
@@ -409,16 +420,18 @@ main img:hover {
 
 }
 
-.port-img, .eleves-img, .pile-img, .tendu-img, .degages-img, .round-img, .sautes-img {
-    margin-top: 10px;
+
+.pile-img, .tendu-img, .sautes-img .port img,  .eleves img, .degages img, .round img {
+    margin-top: 20px;
+    padding-top: 10px;
     grid-column: 1/2;
     grid-row: 1/2;
     align-self: center;
     justify-self: left;
 
 }
-.port-msg, .eleves-msg, .pile-msg, .tendu-msg, .degages-msg, .round-msg, .sautes-msg {
-    margin-top: 10px;
+.pile-msg, .tendu-msg, .sautes-msg, .port-msg, .eleves-msg, .degages-msg, .round-msg {
+    margin-top: 100px;
     padding-top: 10px;
     padding-left: 20px;
     grid-column: 2/3;
@@ -570,10 +583,11 @@ footer p a:hover {
 }    
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+
+    header, nav, main, footer {
         display: block;
-        height: auto;
-    }
+    } 
+
     nav, footer {
         flex-direction: column;
     }
@@ -616,3 +630,4 @@ footer p a:hover {
         margin-top: 25px;
     }
 }
+  

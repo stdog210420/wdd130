@@ -232,7 +232,7 @@ main img:hover {
     grid-column: 3/9;
     grid-row: 4/9;
     display: grid;
-    grid-template-rows: 0.5fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 #exercise {

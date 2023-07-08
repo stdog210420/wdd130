@@ -580,7 +580,7 @@ footer p a:hover {
     } 
 
     #hero {
-        z-index: unset;
+        z-index: 1;
     }
 
     nav, footer {
@@ -600,12 +600,13 @@ footer p a:hover {
 
     main h1, h2, h3, h4, .heading, .firstletter, .title{
         font-size: 25px;
+        width: 80%;    
     }
     .home-title {
         font-size: 25px;
         color: #6f7364;
     }
-    .fundation,.benefits, .dress, .bun , .terms, .shoes, .hand, .feet, .grand, .movement,.movement div, #exercise, #port , #pile, #eleves, #tendu ,#degages ,#round ,#sautes, #demi, #grand , .music, .fade { 
+    .fundation,.benefits,  .fundation-ballet, .benefits-ballet, .dress, .bun , .terms, .shoes, .hand, .feet, .grand, .movement,.movement div, #exercise, #port , #pile, #eleves, #tendu ,#degages ,#round ,#sautes, #demi, #grand , .music, .fade { 
         display: block;
         height: auto;
         margin: 50px auto;
@@ -613,17 +614,17 @@ footer p a:hover {
 
     }
 
-    .music img,.dress-img,.bun-img,.shoes-img, .hand-img, .feet-img, .fundation-img, .terms-img, .pile-img, .tendu-img, .sautes-img .port img,  .eleves img, .degages img, .round img, .pile-img2, .tendu-img2, .tendu-img, .tendu-img2  { 
+    .music img,.dress-img,.bun-img, .bun-msg, .shoes-img, .hand-img, .feet-img, .fundation-img, .terms-img, .pile-img, .tendu-img, .sautes-img .port img,  .eleves img, .degages img, .round img, .pile-img2, .tendu-img2, .tendu-img, .tendu-img2  { 
         margin: 50px auto;
         width: 80%;
     }
 
-    /* .fundation-ballet, .benefits-ballet, .dress-msg, .bun-msg, .shoes-msg, .hand-msg, .feet-msg, .pile-msg, .tendu-msg, .sautes-msg, .port-msg, .eleves-msg, .degages-msg, .round-msg {
+    .dress-msg, .shoes-msg, .hand-msg, .feet-msg, .pile-msg, .tendu-msg, .sautes-msg, .port-msg, .eleves-msg, .degages-msg, .round-msg {
         display: block;
         height: auto;
         margin: 50px auto;
-        width: 60%;
-    } */
+        width: 80%;
+    }
 
     .music,  .music-msg {
         width: 80%;

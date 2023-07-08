@@ -612,7 +612,7 @@ footer p a:hover {
         display: none;
     }
 
-    main h1, h2, h3, h4,h5, h6, .head p{
+    main h1, h2, h3, h4,h5, .head p{
         font-size: 25px;
     }
     .home-title {
@@ -627,7 +627,7 @@ footer p a:hover {
 
     }
 
-    .fundation-img, .terms-img, .exercise-img, .port-img , .pile-img, .eleves-img, .tendu-img ,.degages-img ,.round-img ,.sautes-img , .music-img, .dress-img,.bun-img,.shoes-img, .hand-img, .feet-img { 
+    .fundation-img, .terms-img, .port-img , .pile-img, .pile-img2, .eleves-img, .tendu-img ,.degages-img ,.round-img ,.sautes-img , .music-img, .dress-img,.bun-img,.shoes-img, .hand-img, .feet-img { 
         margin: 50px auto;
         width: 80%;
 

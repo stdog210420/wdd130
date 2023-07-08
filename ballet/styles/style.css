@@ -610,6 +610,7 @@ footer p a:hover {
     .fundation,.benefits,  .fundation-ballet, .benefits-ballet, .dress, .bun , .terms, .shoes, .hand, .feet, .grand, .movement,.movement div, #exercise, #port , #pile, #eleves, #tendu ,#degages ,#round ,#sautes, #demi, #grand { 
         display: block;
         height: auto;
+        padding: 0 auto;
         margin: 0 auto;
         width: 900px;
         align-items: baseline;

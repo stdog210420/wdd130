@@ -597,7 +597,7 @@ footer p a:hover {
     main h1, h2, h3, h4, .heading, .firstletter, .title{
         font-size: 25px;
         width: 100%; 
-           
+
     }
 
     main img, p ,ol ,li ul , .tendu p{
@@ -612,6 +612,8 @@ footer p a:hover {
         height: auto;
         margin: 0 auto;
         width: 900px;
+        align-items: baseline;
+        justify-self: baseline;
 
     }
 
@@ -620,6 +622,7 @@ footer p a:hover {
         padding: 0 auto;
         width: 60%;
         max-width: 900px
+        
     }
 
     .dress-msg, .shoes-msg, .hand-msg, .feet-msg, .pile-msg, .tendu-msg, .sautes-msg, .port-msg, .eleves-msg, .degages-msg, .round-msg , .music-msg{

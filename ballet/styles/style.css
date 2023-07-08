@@ -599,7 +599,7 @@ footer p a:hover {
         width: 100%;    
     }
 
-    main img, p {
+    main img, p ,ol ,li ul{
         max-width: 900px
     }
     .home-title {
@@ -623,12 +623,10 @@ footer p a:hover {
     .dress-msg, .shoes-msg, .hand-msg, .feet-msg, .pile-msg, .tendu-msg, .sautes-msg, .port-msg, .eleves-msg, .degages-msg, .round-msg {
         height: auto;
         margin: 0 auto;
-        width: 60%;
         max-width: 900px
     }
 
     .music,  .music-msg {
-        width: 80%;
         display: block;
         margin: 0 auto;
         max-width: 900px

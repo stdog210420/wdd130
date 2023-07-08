@@ -20,12 +20,12 @@ Fonts are separated by a | */
   --headline-color-on-white: #e15a97;  /* headlines on a white background */ 
   --headline-color-on-color: #e15a97; /* headlines on a colored background */ 
   --paragraph-color-on-white: #6d98ba; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #4e4d5c; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: #6d98ba; /* paragraph text on a colored background */ 
   --paragraph-background-color: #fff5f2   ;
-  --nav-link-color: #fff5f2;
-  --nav-background-color: #e15a97;
-  --nav-hover-link-color: #6d98ba;
-  --nav-hover-background-color: #fff5f2;
+  --nav-link-color: #6d98ba;
+  --nav-background-color: hsl(333, 69%, 62%, 0.2);
+  --nav-hover-link-color: #fff5f2;
+  --nav-hover-background-color: hsl(333, 69%, 62%, 0.2);
 }
 
 

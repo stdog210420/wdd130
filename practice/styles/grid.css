@@ -1,0 +1,136 @@
+/******************************************************************************
+START grid layout extra credit
+******************************************************************************/
+
+/* Use the align-items: center to center the text vertically in each row */
+/*Add padding around all grids of 1rem*/
+* {
+    align-items: center;
+    box-sizing: border-box;
+
+    /* padding: 1rem; */
+
+}
+
+/* Choose any colors you want for each of the display:grid elements */
+/* Grids 1 – 5 are 12 columns */
+/* • Grid 1 has padding top and bottom of 2em */
+.grid1 {
+
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 4fr;
+    background-color:yellowgreen;
+    align-items: start;
+
+}
+
+/* Grid 1 heading is h1 */
+.grid1 h1 {
+    text-align: left;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.grid2 {
+
+    background-color:pink;
+    grid-column: 2/10;
+    grid-row: 2/3;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+ 
+
+}
+
+
+/* Grid 2, 4, 5 text are h2 */
+.grid2 h2 {
+    text-align: center;
+    font-size: 1em;
+}
+
+.grid3 {
+    padding: 0;
+    background-color:blanchedalmond;
+    grid-column: 2/3;
+
+}
+
+/* Grid 3, 6, 7 are h3 */
+.grid3 h3 {
+    
+}
+
+.grid4 {
+    background-color:burlywood;
+    grid-column: 5/10;
+    grid-row: 3/4;
+}
+
+/* Grid 2, 4, 5 text are h2 */
+.grid4 h2 {
+
+}
+
+/* Grid for the Fieldset inside the form is 6 columns (1fr 5fr) */
+section {
+    display: grid;
+    grid-template-columns: 1fr 5fr;   
+    background-color:grey; 
+    
+}
+
+/* Grid 2, 4, 5 text are h2 */
+section h2 {
+
+    
+}
+
+form {
+  
+    background-color: peru;
+}
+
+legend {
+ 
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+/* • Div inside fieldset is 3 columns (1fr 2fr) Grid-gap: 0 1em; */
+
+fieldset>div {
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    Grid-gap: 0 1em
+
+}
+/* Form labels are right aligned */
+label {
+    
+    text-align: right;
+    /* background-color: peru; */
+}
+
+/* Field Input are left aligned and width is 100% */
+input {
+    width:100%;
+    text-align: left;
+    
+}
+
+button {
+    background-color:aquamarine;
+
+}
+
+
+section>div {
+
+
+}

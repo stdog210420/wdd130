@@ -115,24 +115,6 @@ main h1, h2, h3, h4, .heading, .firstletter  {
     color: #e15a97;
 }
 
-main h4 {
-    font-family: "Dancing Script", "Calligraffitti",  cursive;
-    margin-top: 10px;
-    text-align: center;
-    justify-items: center;
-    align-items: center;
-    font-size: 2em;
-    color: #e15a97;
-}
-
-/* .firstletter {
-    margin: 10px;
-    font-family: "Dancing Script", "Calligraffitti",  cursive;
-    font-size: 2em;
-    color: #e15a97;
-    text-align: left;
-  } */
-
 main img{
     border: 10px solid #e15a97;
     width: 1600px;
@@ -591,7 +573,7 @@ footer p a:hover {
 @media screen and (max-width: 900px) {
     
 
-    header, nav, main, footer {
+    header, nav, main, footer, #hero {
         display: block;
     } 
 
@@ -608,18 +590,18 @@ footer p a:hover {
     #hero-msg {
         margin-top: 0;
     }
-    #hero-msg h4, #hero-msg h5 {
+    #hero-msg p, #hero-msg h5 {
         display: none;
     }
 
-    main h1, h2, h3, h4,h5, .head p{
+    main h1, h2, h3, h4, .heading, .firstletter, .title{
         font-size: 25px;
     }
     .home-title {
         font-size: 25px;
         color: #6f7364;
     }
-    .fundation, .terms, .grand, #exercise, #port , #pile, #eleves,#tendu ,#degages ,#round ,#sautes , .music, .dress,.bun,.shoes, .hand, .feet, .movement, .music { 
+    .fundation,.benefits, .dress, .bun , .terms, .shoes, .hand, .feet, .grand, .movement, #exercise, #port , #pile, #eleves, #tendu ,#degages ,#round ,#sautes , .music, .fade { 
         display: block;
         height: auto;
         margin: 50px auto;
@@ -627,7 +609,7 @@ footer p a:hover {
 
     }
 
-    .fundation-img, .terms-img, .port-img , .pile-img, .pile-img2, .eleves-img, .tendu-img ,.degages-img ,.round-img ,.sautes-img , .music-img, .dress-img,.bun-img,.shoes-img, .hand-img, .feet-img { 
+    .music img,.dress-img,.bun-img,.shoes-img, .hand-img, .feet-img,  .fundation-img, .terms-img, .pile-img, .tendu-img, .sautes-img .port img,  .eleves img, .degages img, .round img, .pile-img2, .tendu-img2, .tendu-img, .tendu-img2  { 
         margin: 50px auto;
         width: 80%;
 

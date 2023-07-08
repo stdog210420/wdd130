@@ -584,8 +584,9 @@ footer p a:hover {
         display: block;
         padding: 15px;
     }
-    #hero {
-        margin-top: 0;
+    #hero, .home-grid {
+        display: block;
+        height: auto;
     }
     #hero-msg {
         margin-top: 0;
@@ -613,6 +614,11 @@ footer p a:hover {
         margin: 50px auto;
         width: 80%;
 
+    }
+    .music,  .music-msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
     }
 
     footer {

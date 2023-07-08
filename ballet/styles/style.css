@@ -591,13 +591,17 @@ footer p a:hover {
     #hero-msg {
         margin-top: 0;
     }
-    #hero-msg p, #hero-msg h5 , figcaption {
+    #hero-msg p, #hero-msg h5 , #hero figure>figcaption {
         display: none;
     }
 
     main h1, h2, h3, h4, .heading, .firstletter, .title{
         font-size: 25px;
         width: 80%;    
+    }
+
+    main img {
+        max-width: 900px
     }
     .home-title {
         font-size: 25px;

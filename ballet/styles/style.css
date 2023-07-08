@@ -574,7 +574,7 @@ footer p a:hover {
     
 
     header, nav, main, footer, .home-grid{
-
+        width: auto;
         display: block;
         height: auto;
     } 
@@ -591,7 +591,7 @@ footer p a:hover {
     #hero-msg {
         margin-top: 0;
     }
-    #hero-msg p, #hero-msg h5 {
+    #hero-msg p, #hero-msg h5 , figcaption {
         display: none;
     }
 
@@ -613,14 +613,13 @@ footer p a:hover {
 
     .music img,.dress-img,.bun-img, .bun-msg, .shoes-img, .hand-img, .feet-img, .fundation-img, .terms-img, .pile-img, .tendu-img, .sautes-img .port img,  .eleves img, .degages img, .round img, .pile-img2, .tendu-img2, .tendu-img, .tendu-img2  { 
         margin: 0 auto;
-        width: 80%;
+        width: 60%;
     }
 
     .dress-msg, .shoes-msg, .hand-msg, .feet-msg, .pile-msg, .tendu-msg, .sautes-msg, .port-msg, .eleves-msg, .degages-msg, .round-msg {
-        display: block;
         height: auto;
         margin: 0 auto;
-        width: 80%;
+        width: 60%;
     }
 
     .music,  .music-msg {

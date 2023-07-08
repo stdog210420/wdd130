@@ -573,8 +573,11 @@ footer p a:hover {
 @media screen and (max-width: 900px) {
     
 
-    header, nav, main, footer, #hero {
+    header, nav, main, footer, #hero, .home-grid{
+
         display: block;
+        height: auto;
+
     } 
 
     nav, footer {
@@ -584,10 +587,7 @@ footer p a:hover {
         display: block;
         padding: 15px;
     }
-    #hero, .home-grid {
-        display: block;
-        height: auto;
-    }
+
     #hero-msg {
         margin-top: 0;
     }

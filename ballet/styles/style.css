@@ -599,18 +599,18 @@ footer p a:hover {
         width: 100%;    
     }
 
-    main img, p ,ol ,li ul{
-        max-width: 900px
+    main img, p ,ol ,li ul , .tendu p{
+        width: 900px
     }
     .home-title {
         font-size: 25px;
         color: #6f7364;
     }
-    .fundation,.benefits,  .fundation-ballet, .benefits-ballet, .dress, .bun , .terms, .shoes, .hand, .feet, .grand, .movement,.movement div, #exercise, #port , #pile, #eleves, #tendu ,#degages ,#round ,#sautes, #demi, #grand , .music, .fade { 
+    .fundation,.benefits,  .fundation-ballet, .benefits-ballet, .dress, .bun , .terms, .shoes, .hand, .feet, .grand, .movement,.movement div, #exercise, #port , #pile, #eleves, #tendu ,#degages ,#round ,#sautes, #demi, #grand { 
         display: block;
         height: auto;
         margin: 0 auto;
-        width: 80%;
+        width: 900px;
 
     }
 
@@ -620,17 +620,12 @@ footer p a:hover {
         max-width: 900px
     }
 
-    .dress-msg, .shoes-msg, .hand-msg, .feet-msg, .pile-msg, .tendu-msg, .sautes-msg, .port-msg, .eleves-msg, .degages-msg, .round-msg {
+    .dress-msg, .shoes-msg, .hand-msg, .feet-msg, .pile-msg, .tendu-msg, .sautes-msg, .port-msg, .eleves-msg, .degages-msg, .round-msg , .music-msg{
         height: auto;
         margin: 0 auto;
         max-width: 900px
     }
 
-    .music,  .music-msg {
-        display: block;
-        margin: 0 auto;
-        max-width: 900px
-    }
 
     footer {
         margin-top: 25px;

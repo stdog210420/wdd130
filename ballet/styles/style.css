@@ -573,12 +573,15 @@ footer p a:hover {
 @media screen and (max-width: 900px) {
     
 
-    header, nav, main, footer, #hero, .home-grid{
+    header, nav, main, footer, .home-grid{
 
         display: block;
         height: auto;
-
     } 
+
+    #hero {
+        z-index: unset;
+    }
 
     nav, footer {
         flex-direction: column;
@@ -606,7 +609,7 @@ footer p a:hover {
         display: block;
         height: auto;
         margin: 50px auto;
-        width: 60%;
+        width: 80%;
 
     }
 
@@ -615,12 +618,12 @@ footer p a:hover {
         width: 80%;
     }
 
-    .fundation-ballet, .benefits-ballet, .dress-msg, .bun-msg, .shoes-msg, .hand-msg, .feet-msg, .pile-msg, .tendu-msg, .sautes-msg, .port-msg, .eleves-msg, .degages-msg, .round-msg {
+    /* .fundation-ballet, .benefits-ballet, .dress-msg, .bun-msg, .shoes-msg, .hand-msg, .feet-msg, .pile-msg, .tendu-msg, .sautes-msg, .port-msg, .eleves-msg, .degages-msg, .round-msg {
         display: block;
         height: auto;
         margin: 50px auto;
         width: 60%;
-    }
+    } */
 
     .music,  .music-msg {
         width: 80%;

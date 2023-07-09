@@ -600,7 +600,13 @@ footer p a:hover {
 
     }
 
-    main img, p ,ol ,li ul , .tendu p, .bun img{
+
+    .credit{
+        font-size: 10px;
+        width: 80%; 
+    }
+
+    main img, p ,ol ,li ul , .tendu p, main figure>img, main figure>figcaption,  main figure> p{
         display: block;
         width:80%;
         font-size: 14px;

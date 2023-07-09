@@ -606,13 +606,15 @@ footer p a:hover {
         width: 80%; 
     }
 
-    main img, main figure>img, .bun-img img, .shoes-img img, .pile-img img, .pile-img2 img, .tendu-img img, .tendu-img2 img, .fade img, .music img{
+    main img, main figure>img, .bun-img img, .shoes-img img, .pile-img img, .pile-img2 img, .tendu-img img, .tendu-img2 img, .fade img, .music img, .music>.fade img{
         border: 1px solid #e15a97;
         display: block;
         width:80%;
     }
 
-    p ,ol ,li ul , .tendu p, main figure>figcaption,  main figure> p, .music p, .fundation-ballet p, .benefits-ballet p{
+    p ,ol ,li ul , .tendu p, main figure>figcaption,  main figure> p, .music p, .fundation-ballet p, .benefits-ballet p, .fundation p,.tendu-img2 p {
+        padding: 0 auto;
+        margin: 0 auto;
         display: block;
         width:80%;
         font-size: 14px;

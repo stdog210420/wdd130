@@ -606,7 +606,8 @@ footer p a:hover {
         width: 80%; 
     }
 
-    main img, p ,ol ,li ul , .tendu p, main figure>img, main figure>figcaption,  main figure> p{
+    main img, p ,ol ,li ul , .tendu p, main figure>img, main figure>figcaption,  main figure> p,.bun-img img, .shoes-img img, .tendu-img img, .tendu-img2 img, .fade img{
+        border: 1px solid #e15a97;
         display: block;
         width:80%;
         font-size: 14px;

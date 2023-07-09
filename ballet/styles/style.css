@@ -596,12 +596,13 @@ footer p a:hover {
 
     main h1, h2, h3, h4, .heading, .firstletter, .title{
         font-size: 25px;
-        width: 100%; 
+        width: 80%; 
 
     }
 
     main img, p ,ol ,li ul , .tendu p{
-        width: 900px
+        width:80%;
+        font-size: 16px;
     }
     .home-title {
         font-size: 25px;
@@ -612,7 +613,7 @@ footer p a:hover {
         height: auto;
         padding: 0 auto;
         margin: 0 auto;
-        width: 900px;
+        width: 80%;
         align-items: baseline;
         justify-self: baseline;
 
@@ -622,14 +623,14 @@ footer p a:hover {
         margin: 0 auto;
         padding: 0 auto;
         width: 60%;
-        max-width: 900px
+        width: 80%;
         
     }
 
     .dress-msg, .shoes-msg, .hand-msg, .feet-msg, .pile-msg, .tendu-msg, .sautes-msg, .port-msg, .eleves-msg, .degages-msg, .round-msg , .music-msg{
         height: auto;
         margin: 0 auto;
-        max-width: 900px
+        width: 80%;
     }
 
 

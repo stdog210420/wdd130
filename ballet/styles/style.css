@@ -594,7 +594,7 @@ footer p a:hover {
         display: none;
     }
 
-    main h1, h2, h3, h4, .heading, .firstletter, .title, footer p, .music h4{
+    main h1, h2, h3, h4, .heading, .firstletter, .title, footer p, .music h4, span{
         font-size: 20px;
         width: 80%; 
 
@@ -650,6 +650,7 @@ footer p a:hover {
 
     .music img, .image, .fade{
         width: 80%;
+        height: auto;
         display: block;
         margin: 0 auto;
     }

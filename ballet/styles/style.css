@@ -595,17 +595,18 @@ footer p a:hover {
     }
 
     main h1, h2, h3, h4, .heading, .firstletter, .title{
-        font-size: 25px;
+        font-size: 20px;
         width: 80%; 
 
     }
 
-    main img, p ,ol ,li ul , .tendu p{
+    main img, p ,ol ,li ul , .tendu p, .bun img{
+        display: block;
         width:80%;
-        font-size: 16px;
+        font-size: 14px;
     }
     .home-title {
-        font-size: 25px;
+        font-size: 20px;
         color: #6f7364;
     }
     .fundation,.benefits,  .fundation-ballet, .benefits-ballet, .dress, .bun , .terms, .shoes, .hand, .feet, .grand, .movement,.movement div, #exercise, #port , #pile, #eleves, #tendu ,#degages ,#round ,#sautes, #demi, #grand { 
@@ -623,7 +624,6 @@ footer p a:hover {
         margin: 0 auto;
         padding: 0 auto;
         width: 60%;
-        width: 80%;
         
     }
 

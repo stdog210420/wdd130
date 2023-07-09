@@ -594,7 +594,7 @@ footer p a:hover {
         display: none;
     }
 
-    main h1, h2, h3, h4, .heading, .firstletter, .title, footer p{
+    main h1, h2, h3, h4, .heading, .firstletter, .title, footer p, .music h4{
         font-size: 20px;
         width: 80%; 
 
@@ -606,7 +606,7 @@ footer p a:hover {
         width: 80%; 
     }
 
-    main img, p ,ol ,li ul , .tendu p, main figure>img, main figure>figcaption,  main figure> p,.bun-img img, .shoes-img img, .tendu-img img, .tendu-img2 img, .fade img{
+    main img, p ,ol ,li ul , .tendu p, main figure>img, main figure>figcaption,  main figure> p,.bun-img img, .shoes-img img, .pile-img img, .pile-img2 img, .tendu-img img, .tendu-img2 img, .fade img, .music img, .music p{
         border: 1px solid #e15a97;
         display: block;
         width:80%;
@@ -627,7 +627,7 @@ footer p a:hover {
 
     }
 
-    .music img,.dress-img,.bun-img, .bun-msg, .shoes-img, .hand-img, .feet-img, .fundation-img, .terms-img, .pile-img, .tendu-img, .sautes-img .port img,  .eleves img, .degages img, .round img, .pile-img2, .tendu-img2, .tendu-img, .tendu-img2  { 
+    .dress-img,.bun-img, .bun-msg, .shoes-img, .hand-img, .feet-img, .fundation-img, .terms-img, .pile-img, .tendu-img, .sautes-img .port img,  .eleves img, .degages img, .round img, .pile-img2, .tendu-img2, .tendu-img, .tendu-img2  { 
         margin: 0 auto;
         padding: 0 auto;
         width: 60%;

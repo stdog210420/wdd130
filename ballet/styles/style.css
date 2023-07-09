@@ -602,17 +602,18 @@ footer p a:hover {
 
 
     .credit{
+        display: block;
         font-size: 10px;
         width: 80%; 
     }
 
-    main img, main figure>img, .bun-img img, .shoes-img img, .pile-img img, .pile-img2 img, .tendu-img img, .tendu-img2 img, .fade img, .music img, .music>.fade img{
+    main img, main figure>img, .bun-img img, .shoes-img img, .pile-img img, .pile-img2 img, .tendu-img img, .tendu-img2 img{
         border: 1px solid #e15a97;
         display: block;
         width:80%;
     }
 
-    p ,ol ,li ul , .tendu p, main figure>figcaption,  main figure> p, .music p, .fundation-ballet p, .benefits-ballet p, .fundation p,.tendu-img2 p {
+    p ,ol ,li ul , .tendu p, main figure>figcaption,  main figure> p, .music p, .fundation-ballet p, .benefits-ballet p, .fundation p,.tendu-img2 p, .dress-msg p, .bun-msg p, .shoes-msg p, .tendu-msg p {
         padding: 0 auto;
         margin: 0 auto;
         display: block;
@@ -647,6 +648,11 @@ footer p a:hover {
         width: 80%;
     }
 
+    .fade img, .music img, .music>.fade img{
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
 
     footer {
         margin-top: 25px;

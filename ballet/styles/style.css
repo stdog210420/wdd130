@@ -388,7 +388,7 @@ to {opacity: 1}
 .bun-msg {
     margin-top: 10px;
     padding-top: 10px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
     grid-column: 2/3;
     grid-row: 3/4;
     align-content: center;

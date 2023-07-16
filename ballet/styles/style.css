@@ -590,8 +590,14 @@ footer p a:hover {
         display: none;
     }
 
-    main h1, h2, h3, h4, .heading, .firstletter, .title, footer p, .music h4, span, .slide__content{
+    main h1, h2, h3, h4, .heading, .firstletter, footer p, .music h4, span, .slide__content{
         font-size: 20px;
+        width: 80%; 
+
+    }
+
+    .title {
+        font-size: 16px;
         width: 80%; 
 
     }

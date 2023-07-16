@@ -651,6 +651,7 @@ footer p a:hover {
     .dress-msg, .bun-msg, .shoes-msg, .hand-msg, .feet-msg, .pile-msg, .tendu-msg, .sautes-msg, .port-msg, .eleves-msg, .degages-msg, .round-msg , .music-msg{
         height: auto;
         margin: 0 ;
+        padding: 0 ;
         width: 80%;
     }
 

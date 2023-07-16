@@ -141,17 +141,17 @@ main img:hover {
 
 .fundation {
     grid-row: 1/2;
-    grid-column: 3/9;
+    grid-column: 1/11;
 }
 
 .benefits {
     margin-top: 10px;
     grid-row: 2/5;
-    grid-column: 3/9;
+    grid-column: 1/11;
 }
 
 .fundation p, .benefits p , .dress-msg p{
-    grid-column: 3/9;
+    grid-column: 1/11;
     padding-top: 2px;
     font-family: "Playfair Display", sans-serif, Helvetica;
     /* font-size: 30px; */
@@ -195,16 +195,16 @@ main img:hover {
 }
 
 .hand {
-    grid-column: 3/9;
+    grid-column: 1/11;
     grid-row: 2/3;
 }
 
 .feet {
-    grid-column: 3/9;
+    grid-column: 1/11;
     grid-row: 3/4;
 }
 .movement {
-    grid-column: 3/9;
+    grid-column: 1/11;
     grid-row: 4/9;
     /* display: grid;
     grid-template-rows: auto ; */
@@ -216,57 +216,57 @@ main img:hover {
 }
 
 #exercise {
-    grid-column: 3/9;
+    grid-column: 1/11;
     grid-row: 1/2;
     justify-self: left;
     padding-top: 10px;
 }
 
 #port {
-    grid-column: 3/9;
+    grid-column: 1/11;
     grid-row: 1/2;
 }
 
 #pile {
-    grid-column: 3/9;
+    grid-column: 1/11;
     grid-row: 2/3;
     display: grid;
     grid-template-columns: repeat(2, 1fr);    
 }
 
 #eleves {
-    grid-column: 3/9;
+    grid-column: 1/11;
     grid-row: 3/4;
 }
 
 #tendu {
-    grid-column: 3/9;
+    grid-column: 1/11;
     grid-row: 4/5;
     display: grid;
     grid-template-rows: repeat(2, 1fr);    
 }
 
 #degages {
-    grid-column: 3/9;
+    grid-column: 1/11;
     grid-row: 5/6;
 
 }
 
 #round {
-    grid-column: 3/9;
+    grid-column: 1/11;
     grid-row: 6/7;
 
 }
 
 #sautes {
-    grid-column: 3/9;
+    grid-column: 1/11;
     grid-row: 7/8;
 
 }
 
 .music{
     /* background-color: #fff5f2;  */
-    grid-column: 3/9;
+    grid-column: 1/11;
     grid-row: 9/11;
     box-sizing: border-box;
     display: grid;
@@ -324,14 +324,14 @@ to {opacity: 1}
 
 .dress-img {
     margin-top: 10px;
-    grid-column: 3/9;
+    grid-column: 1/11;
     /* grid-row: 1/2; */
     align-self: center;
     justify-self: center;
 
 }
 .dress-msg {
-    grid-column: 3/9;
+    grid-column: 1/11;
     line-height: 1.5em;
 
 }

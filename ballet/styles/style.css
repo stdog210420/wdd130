@@ -598,9 +598,12 @@ footer p a:hover {
 
 
     .credit{
+        padding: 0 ;
+        margin: 0 auto;
         display: block;
+        width:80%;
         font-size: 10px;
-        width: 80%; 
+    }
     }
 
     main img, main figure>img, .bun-img img, .shoes-img img, .pile-img img, .pile-img2 img, .tendu-img img, .tendu-img2 img{
@@ -617,14 +620,6 @@ footer p a:hover {
         font-size: 14px;
     }
 
-    figcaption{
-        padding: 0 ;
-        margin: 0 auto;
-        display: block;
-        width:80%;
-        font-size: 14px;
-
-    }
     .home-title {
         font-size: 20px;
         color: #6f7364;

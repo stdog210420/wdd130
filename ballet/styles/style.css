@@ -619,9 +619,9 @@ footer p a:hover {
     }
 
     p ,ol ,li ul , .tendu p,  main figure> p, .music p, .fundation-ballet p, .benefits-ballet p, .fundation p,.tendu-img2 p, .dress-msg p, .bun-msg p, .shoes-msg p, .tendu-msg p, .slide__pagenumber {
-        /* padding: 0 ;
-        margin: 0 ;
-        display: block; */
+        padding: 0 ;
+        /* margin: 0 ; */
+        /* display: block; */
         width:80%;
         font-size: 14px;
     }

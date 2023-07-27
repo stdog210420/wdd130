@@ -80,29 +80,30 @@ nav a:hover {
 
 }
 
-.home-grid { 
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    margin-top: 10px;
-    padding: 10px;
-    color: #6d98ba;
-    font-size: 1em;
-    justify-content: center;
-    align-content: center;
-  }
-
-main section {
-    max-width: 1600px;;
-    align-self: center;
-    justify-self: center;
-}
-
 .home-title { 
     margin-top: 10px;
     color: #e15a97;
     font-family: "Dancing Script", "Calligraffitti",  cursive;
     font-size: 2em;
     text-align: center;
+}
+
+main section {
+    box-sizing: border-box; 
+    align-self: center;
+    justify-self: center;
+    line-height: 1.5em;
+}
+
+.home-grid { 
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    margin-top: 10px;
+    /* padding: 10px; */
+    color: #6d98ba;
+    font-size: 1em;
+    justify-content: center;
+    align-content: center;
 }
 
 main h1, h2, h3, h4, .heading, .firstletter  {
@@ -112,16 +113,18 @@ main h1, h2, h3, h4, .heading, .firstletter  {
     justify-items: center;
     align-items: center;
     font-size: 2em;
-    /* color:#6d98ba; */
     color: #e15a97;
+    padding-bottom: 10px;
 }
 
 main img{
+    box-sizing: border-box;
     border: 10px solid #e15a97;
-    /* max-width: 100%; */
     width: 100%;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
+    justify-content: center;
+    justify-self: center;
 }
 
 main img:hover {
@@ -130,36 +133,25 @@ main img:hover {
     transform: scale(1.1);
 }
 
-
-
-
 .title{
     font-family: "Playfair Display", sans-serif, Helvetica;
     font-size: 1em;
     font-weight:bolder;
     color:  #6d98ba;
-  }
-
+}
 
 .fundation {
-    padding: 0 10px 0 10px;
-    grid-row: 1/2;
     grid-column: 1/11;
+    grid-row: 1/2;
 }
 
 .benefits {
-    padding: 0 10px 0 10px;
     margin-top: 10px;
-    grid-row: 2/5;
     grid-column: 1/11;
 }
 
 .fundation p, .benefits p , .dress-msg p{
-    grid-column: 1/11;
-    /* padding-top: 2px; */
-    padding: 2px 10px 0 10px;
     font-family: "Playfair Display", sans-serif, Helvetica;
-    /* font-size: 30px; */
     color: #6d98ba;
     text-align: left;
     line-height: 1.5em;
@@ -167,7 +159,6 @@ main img:hover {
 
 
 .fundation-ballet  {
-    grid-column: 3/9;
     padding-top: 2px;
     font-family: "Playfair Display", sans-serif, Helvetica;
     font-size: 30px;
@@ -177,57 +168,104 @@ main img:hover {
 }
 
 .dress {
-    grid-column: 3/9;
+    grid-column: 1/11;
     grid-row: 2/3;
     display: grid;
     /* grid-template-rows: repeat(2, 1fr); */
 }
+.dress-img {
+    margin-top: 10px;
+    grid-column: 3/9;
+    /* grid-row: 1/2; */
+    align-self: center;
+    justify-self: center;
+
+}
+.dress-msg {
+    grid-column: 1/11;
+    line-height: 1.5em;
+}
 
 .bun {
-    grid-column: 3/9;
+    box-sizing: border-box;   
+    padding: 10px 0 10px 0;  
+    grid-column: 1/11;
     grid-row: 3/4;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
 }
 
-.shoes {
-    grid-column: 3/9;
+.bun-img {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    justify-items: center;
+    justify-self: center;
+}
+
+.bun-msg {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: left;
+    justify-items: center;
+    justify-self: center;
+    line-height: 1.5em;
+}
+
+.shoes { 
+    box-sizing: border-box;   
+    padding: 10px 0 10px 0;  
+    grid-column: 1/11;
     grid-row: 4/5;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.shoes-img {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    align-self:center;
+    justify-self:right;
 
 }
 
+.shoes-msg{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    line-height: 1.5em;
+    align-self:center;
+    justify-self: left;
+}
+
 .hand {
+    box-sizing: border-box; 
+    padding: 10px 0 10px 0;    
     grid-column: 1/11;
     grid-row: 2/3;
 }
 
 .feet {
+    box-sizing: border-box;  
+    padding: 10px 0 10px 0;   
     grid-column: 1/11;
     grid-row: 3/4;
 }
+.hand-img, .feet-img {
+    align-self: center;
+    justify-self: center;
+
+}
+.hand-msg, .feet-msg {
+    line-height: 1.5em;
+}
+
 .movement {
+    box-sizing: border-box;  
+    padding: 10px 0 10px 0;  
     grid-column: 1/11;
     grid-row: 4/9;
-    /* display: grid;
-    grid-template-rows: auto ; */
 }
 
-.movement div{
-    box-sizing: border-box;    
-    padding-top: 10px;
-}
-
-#exercise {
-    grid-column: 1/11;
-    grid-row: 1/2;
-    justify-self: left;
-    padding-top: 10px;
-}
-
-#port {
+#exercise, #port, .port-msg  {
     grid-column: 1/11;
     grid-row: 1/2;
 }
@@ -239,6 +277,31 @@ main img:hover {
     grid-template-columns: repeat(2, 1fr);    
 }
 
+.pile-img, .tendu-img {
+    grid-column: 1/2;
+}
+.pile-msg, .tendu-msg{
+    grid-column: 2/3;
+    justify-content: center;
+    align-self: center;
+}
+.pile-img2 {
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-self: center;
+}
+
+#demi{
+    grid-column: 1/2;
+}
+
+#grand{
+    grid-column: 2/3;
+}
+
+
 #eleves {
     grid-column: 1/11;
     grid-row: 3/4;
@@ -248,7 +311,19 @@ main img:hover {
     grid-column: 1/11;
     grid-row: 4/5;
     display: grid;
-    grid-template-rows: repeat(2, 1fr);    
+    grid-template-columns: repeat(2, 1fr);    
+}
+
+.tendu-img2{
+    grid-column: 1/3;
+    grid-row: 4/5;
+    align-content: center;
+    justify-self: center;
+}
+
+.tendu-img2 p{
+    padding-left: 100px;
+
 }
 
 #degages {
@@ -270,13 +345,12 @@ main img:hover {
 }
 
 .music{
-    /* background-color: #fff5f2;  */
     grid-column: 1/11;
     grid-row: 9/11;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);   
+    grid-template-rows: repeat(3, 1fr);   
     position: relative;
     margin-top: 10px;
 }
@@ -295,159 +369,31 @@ from {opacity: .5}
 to {opacity: 1}
 }
 
-
-
 .music img{
-    width: 100%;
-    height:1000px;
-}
-
-.music p{
-    width: 1000px;
-    height:300px;
+    box-sizing: border-box;
+    grid-column: 1/4;
+    grid-row: 1/3;
+    width: 90%;
+    height:90%;
 }
 
 .music h4 {
-    /* margin: 10px; */
     padding-top: 10px;
     grid-column: 1/5;
     grid-row: 1/2;
     text-align: center;
-
 }
 
 .music-msg {
+    box-sizing: border-box;
+    width: 100%;
     background-color: #ffff;   
     padding: 18px;
     grid-column: 3/5;
-    grid-row: 3/5;
-    margin: 35px 0;
+    grid-row: 3/4;
     line-height: 1.5em;
     box-shadow: 5px 5px 10px #6f7364;
 }
-
-
-.dress-img {
-    margin-top: 10px;
-    grid-column: 1/11;
-    /* grid-row: 1/2; */
-    align-self: center;
-    justify-self: center;
-
-}
-.dress-msg {
-    grid-column: 1/11;
-    line-height: 1.5em;
-
-}
-
-.bun img, .bun p , .shoes img, .shoes p, .tendu-img2 img , .pile-img img, .pile-img2 img{
-    width: 800px;
-    text-align: left;
-
-}
-
-.pile-img, .tendu-img, .sautes-img .port img,  .eleves img, .degages img, .round img {
-    align-self: center;
-    justify-self: left;
-
-}
-.pile-msg, .tendu-msg, .sautes-msg, .port-msg, .eleves-msg, .degages-msg, .round-msg {
-    padding-left: 10px;
-    align-self: center;
-    justify-self: center;
-    line-height: 1.5em;
-}
-
-.pile-img2, .tendu-img2 {
-    grid-column: 1/3;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-self: center;
-}
-
-.tendu-img{
-    grid-row: 1/2;
-}
-
-.tendu-img2{
-    grid-row: 2/3;
-    align-content: center;
-    justify-self: center;
-}
-
-.tendu-img2 p{
-    padding-left: 100px;
-
-}
-
-.bun-img {
-    margin-top: 10px;
-    padding: 10px;
-    grid-column: 1/2;
-    grid-row: 3/4;
-    justify-items: center;
-    justify-self: center;
-}
-
-.bun-msg {
-    margin-top: 10px;
-    padding-top: 10px;
-    /* padding-left: 10px; */
-    grid-column: 2/3;
-    grid-row: 3/4;
-    align-content: center;
-    justify-self: center;
-    line-height: 1.5em;
-}
-
-.shoes-img {
-    margin-top: 10px;
-    padding-left: 10px;
-    grid-column: 2/3;
-    grid-row: 4/5;
-    align-self:center;
-    justify-self:right;
-
-}
-
-.shoes-msg{
-    margin-top: 10px;
-    padding-top: 100px;
-    padding-right: 10px;
-    grid-column: 1/2;
-    grid-row: 4/5;
-    line-height: 1.5em;
-    align-self:center;
-    justify-self: center;
-}
-
-.hand-img, .feet-img {
-    margin-top: 10px;
-    grid-column: 3/9;
-    align-self: center;
-    justify-self: center;
-
-}
-.hand-msg, .feet-msg {
-    padding-left: 10px;
-    grid-column: 3/9;
-    line-height: 1.5em;
-
-}
-
-
-
-
-#demi{
-    grid-column: 1/2;
-}
-
-#grand{
-    grid-column: 2/3;
-}
-
-
 
 #feedback {
     background-color: antiquewhite;
@@ -604,7 +550,6 @@ footer p a:hover {
     .title {
         font-size: 16px;
         width: 80%; 
-
     }
 
 
@@ -614,7 +559,7 @@ footer p a:hover {
         display: block;
         width:80%;
         font-size: 10px;
-    
+        text-align: center;
     }
 
     main img, main figure>img, .bun-img img, .shoes-img img, .pile-img img, .pile-img2 img, .tendu-img img, .tendu-img2 img{
